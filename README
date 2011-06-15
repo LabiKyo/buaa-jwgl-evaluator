@@ -1,0 +1,11 @@
+Author: Labi Kyo <labikyo@gmail.com>
+
+This javascript is for buaaer only. Using in jwgl.buaa.edu.cn, it can auto evaluate teachers.
+
+usage : jwgl_evaluator
+
+1. Open your browser and enter jwgl.buaa.edu.cn
+2. Copy the script in evaluator.js
+3. Parse it in your browser's navigation bar
+4. Press ENTER/Return
+5. That's it!
