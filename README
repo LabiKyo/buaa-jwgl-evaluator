@@ -5,8 +5,9 @@ This javascript is for buaaer only. Using in jwgl.buaa.edu.cn, it can auto evalu
 usage : jwgl_evaluator
 
 1. Open your browser and enter jwgl.buaa.edu.cn
-2. Copy the script in evaluator.js
-3. Parse it in your browser's console
-4. Press ENTER/Return
-5. That's it!
-6. Remember to click submit button :)
+2. Login and navigate to '教学质量评价'
+3. Copy the script in evaluator.js
+4. Parse it in your browser's console
+5. Press ENTER/Return
+6. That's it!
+7. Remember to click submit button :)
