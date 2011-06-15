@@ -49,3 +49,5 @@ function fillTr(elems, target) { // 给某一行的所有select赋值
     elems[i].selectedIndex = target;
   }
 }
+
+evaluator(); // 调用函数

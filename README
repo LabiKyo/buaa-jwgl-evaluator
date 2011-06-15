@@ -6,6 +6,7 @@ usage : jwgl_evaluator
 
 1. Open your browser and enter jwgl.buaa.edu.cn
 2. Copy the script in evaluator.js
-3. Parse it in your browser's navigation bar
+3. Parse it in your browser's console
 4. Press ENTER/Return
 5. That's it!
+6. Remember to click submit button :)
