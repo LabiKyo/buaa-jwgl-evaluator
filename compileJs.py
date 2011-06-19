@@ -9,7 +9,7 @@ def main():
     try:
         fin = open('./evaluator.js', 'r')
         fout = open('./script.js', 'w')
-        fout.write('javascript:')
+        fout.write('java\nscript:')
         remove_comment = re.compile(r'(.+)//.+')
         for line in fin:
             result = remove_comment.match(line)
