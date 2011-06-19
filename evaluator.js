@@ -1,5 +1,5 @@
-flag = true;
-id = '';
+var flag = true;
+var id = '';
 function fillTr(elems, target) { // 给某一行的所有select赋值
   var i;
   for (i = 0; i < elems.length; ++i) {
@@ -32,7 +32,7 @@ function evaluate() {
     }
     var submit = iDoc.getElementById('Button1'); // 获取按钮
     submit.click(); // 提交请求
-    course = iDoc.getElementById('pjkc'); // 获取评价课程select
+    var course = iDoc.getElementById('pjkc'); // 获取评价课程select
     if (course.selectedIndex === course.length - 1) { // 这是最后一个课程了!
       flag = false;
     }
@@ -45,8 +45,8 @@ function checkFlag() {
   }
 }
 function evaluator() {
-  id = setInterval('evaluate()', 50); // 0.05s刷一次
-  setInterval('checkFlag()', 50);
+  id = setInterval(evaluate, 50); // 0.05s刷一次
+  setInterval(checkFlag, 50);
 }
 
 evaluator(); // 调用函数
